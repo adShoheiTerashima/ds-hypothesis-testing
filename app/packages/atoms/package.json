@@ -1,0 +1,14 @@
+{
+  "name": "@ds-hypothesis-testing/atoms",
+  "version": "1.0.0",
+  "private": true,
+  "author": "AC Product Team",
+  "repository": {  
+    "type": "git",  
+    "url": "https://github.com/@ds-hypothesis-testing/atoms.git",
+    "directory": "atoms"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

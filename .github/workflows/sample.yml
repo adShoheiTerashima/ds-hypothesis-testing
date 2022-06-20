@@ -15,8 +15,10 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
       - name: "Install dependencies"
         run: yarn
+        working-directory: ./app
       - run: |
           yarn build
           yarn publish
+        working-directory: ./app
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

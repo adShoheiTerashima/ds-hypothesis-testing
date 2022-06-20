@@ -2,5 +2,9 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "dist",
-  }
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": false
+  },
+  "exclude": ["node_modules", "dist/**/*"]
 }

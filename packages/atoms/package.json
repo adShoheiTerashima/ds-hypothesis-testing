@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "publish": "yarn build && npm publish"
+    "pub": "yarn build && npm publish"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",

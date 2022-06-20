@@ -37,6 +37,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "yarn workspaces run build",
+    "pub": "yarn workspaces run pub",
     "release": "changeset publish"
   }
 }

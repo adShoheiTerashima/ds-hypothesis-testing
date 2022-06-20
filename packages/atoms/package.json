@@ -1,5 +1,5 @@
 {
-  "name": "atoms",
+  "name": "@adShoheiTerashima/atoms",
   "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -8,12 +8,11 @@
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "access": "public",
-    "@adShoheiTerashima:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adShoheiTerashima/ds-hypothesis-testing.git",
+    "url": "https//github.com/adShoheiTerashima/ds-hypothesis-testing.git",
     "directory": "packages/atoms"
   },
   "scripts": {

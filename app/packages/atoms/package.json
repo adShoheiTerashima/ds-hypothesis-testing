@@ -7,9 +7,13 @@
   "author": "AC Product Team",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adShoheiTerashima/ds-hypothesis-testing.git"
+    "url": "git://github.com/adShoheiTerashima/ds-hypothesis-testing.git",
+    "directory": "packages/atoms"
   },
   "scripts": {
     "build": "rollup -c",

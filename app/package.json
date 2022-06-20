@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/atoms"],
+  "workspaces": [
+    "packages/atoms"
+  ],
   "dependencies": {
+    "@changesets/cli": "^2.23.0",
     "@types/jest": "^28.1.2",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
@@ -34,6 +37,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "yarn workspaces run build",
-    "publish": "yarn workspaces run publish"
+    "release": "changeset publish"
   }
 }

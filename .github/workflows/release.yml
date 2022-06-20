@@ -16,7 +16,6 @@ jobs:
       - name: "Install dependencies"
         run: |
           yarn
-          yarn build
       - run: yarn pub
         env:
             NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@adShoheiTerashima:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",

@@ -9,10 +9,15 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.23.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@types/jest": "^28.1.2",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
@@ -25,6 +30,7 @@
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-webpack4": "^6.5.9",
     "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/react": "^6.5.9",
@@ -49,6 +55,7 @@
     "build": "yarn workspaces run build",
     "pub": "yarn workspaces run pub",
     "release": "changeset publish",
-    "lint": "eslint --ext .jsx,.js,.tsx,.ts packages/"
+    "lint": "eslint --ext .jsx,.js,.tsx,.ts packages/",
+    "build:tailwind": "postcss src/scss/base.scss -o src/scss/tailwind.scss"
   }
 }
